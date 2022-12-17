@@ -207,7 +207,7 @@ footer {
     .about {
         padding: 50px 10px;
         flex-direction: column-reverse;
-        align-items: flex-start;
+        align-items: center;
         width: 100%;
     }
     .form {
