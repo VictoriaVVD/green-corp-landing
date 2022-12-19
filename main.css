@@ -91,7 +91,7 @@ button {
 .form p {
     font-size: 18px;
     opacity: .65;
-    margin: 0;
+    margin: 0; 
 }
 .form p:nth-child(4) {
     margin-bottom: 25px;
