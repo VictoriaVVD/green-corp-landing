@@ -38,7 +38,15 @@ button {
     padding: 15px;
 
 }
+.orb-canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
 .about {
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -137,7 +145,7 @@ button {
 }
 .features__feedback-right {
     display: flex;
-    align-self: center;
+    align-self: center  1;
     justify-content: space-between;
 }
 .features__box {
