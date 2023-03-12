@@ -9,10 +9,19 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    position: sticky;
+    position: fixed;
+    left: 0;
+    right: 0;
     top: 0;
-    background: #fff;
     z-index: 1;
+    background-color: none;
+    transition: background-color, box-shadow 0.25s ease;
+    
+}
+.header__scrolled {
+    box-shadow: 0 12px 34px -11px rgb(65 62 101 / 10%);
+    background-color: #FFF;
+    
 }
 .header__logo {
     height: 30px;
@@ -50,7 +59,7 @@ button {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 115px 0;
+    padding: 200px 0;
     background: url('img/back.png') center / cover no-repeat;
 }
 .about__info {
@@ -143,6 +152,7 @@ button {
     line-height: 26px;
     opacity: 0.7;
 }
+
 .features__feedback-right {
     display: flex;
     align-self: center  1;
