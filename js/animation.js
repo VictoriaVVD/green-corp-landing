@@ -8,7 +8,7 @@ function increaseNumberAnimationStep(i, element, endNumber) {
             element.innerText = i;
         }
 
-        i += 100;
+        i += 200;
         setTimeout(function(){
             increaseNumberAnimationStep(i, element, endNumber)
         }, INCREASE_NUMBER_ANIMATION_SPEED); 
